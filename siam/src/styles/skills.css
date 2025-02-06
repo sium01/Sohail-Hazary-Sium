@@ -61,4 +61,5 @@
 
 .skill-item:hover .progress-bar::after {
  opacity: 1;
+
 }

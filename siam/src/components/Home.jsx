@@ -1,6 +1,3 @@
-
-
-
 export const Home = () => {
  return (
    <section className="hero-section">
@@ -12,9 +9,15 @@ export const Home = () => {
 fontOpticalSizing:"auto",
 fontWeight:"400",
 fontStyle: "normal",
-color:"yellow"
+color:"#000000"
 }}>Professional MERN Stack Developer</h2>
-       <p>Hello, I am Shail Hazary Siam.As a skilled MERN Stack Developer, I specialize in building dynamic and scalable web applications using the powerful combination of MongoDB, Express.js, React, and Node.js. With a deep understanding of both front-end and back-end technologies, I create seamless, user-centric applications that are not only performant but also intuitive and easy to maintain.
+<img style={{
+  width:"200px",
+  borderRadius:"50%"
+}} src="https://assets.leetcode.com/users/siam01f/avatar_1733595166.png" alt="" />
+       <p style={{
+        margin:"50px"
+       }}>Hello, I am Shail Hazary Siam.As a skilled MERN Stack Developer, I specialize in building dynamic and scalable web applications using the powerful combination of MongoDB, Express.js, React, and Node.js. With a deep understanding of both front-end and back-end technologies, I create seamless, user-centric applications that are not only performant but also intuitive and easy to maintain.
 
 I bring hands-on experience in:
 
@@ -34,7 +37,7 @@ Let’s connect! I am always excited to collaborate on innovative projects and p
 fontOpticalSizing:"auto",
 fontWeight:"400",
 fontStyle: "normal",
-color:"whitesmoke"
+color:"#000000"
 }}>Soft Skills</h1>
 <ul style={{textAlign:"center"}}>
  
@@ -52,7 +55,7 @@ color:"whitesmoke"
 fontOpticalSizing:"auto",
 fontWeight:"400",
 fontStyle: "normal",
-color:"whitesmoke"
+color:"#000000"
 }}>Education</h1>
 
 

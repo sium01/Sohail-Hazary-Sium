@@ -13,14 +13,19 @@ function App() {
     <Router >
    <nav className="main-nav"  >
     
-<h1 className="brand" style={{textAlign:"center", color:"rgb(255,0,0)",fontSize:"80px"}}>SOHAIL HAZARY SIAM</h1>
+<h1 className="brand" style={{textAlign:"center", 
+  textShadow: "2px 2px 30px rgba(0,0,0,0.2)",
+  fontWeight: "bold",
+  color:" #2f2e41",
+  fontSize:"7rem",
+  letterSpacing: "1"}}>SOHAIL HAZARY SIAM</h1>
    <div className="nav-links"style={{textAlign:"center"}}> 
-<button style={{backgroundColor:"#00ff00"}}> <Link to="/"style={{color:"black",fontSize:"28px"}} >Home</Link></button>
-<button style={{backgroundColor:"#00ff00"}}><Link to="/skills"style={{color:"black",fontSize:"28px"}}> Skills</Link></button>
-<button style={{backgroundColor:"#00ff00"}}><Link to="/projects"style={{color:"black",fontSize:"28px"}}> Projects</Link></button>
-<button style={{backgroundColor:"#00ff00"}}><Link to="/resume" style={{color:"black",fontSize:"28px"}}>Resume</Link></button>
-<button style={{backgroundColor:"#00ff00"}}><Link to="/videos" style={{color:"black",fontSize:"28px"}}>Videos</Link></button>
-<button style={{backgroundColor:"#00ff00"}}><Link to="/contact" style={{color:"black",fontSize:"28px"}}> Contact</Link></button>
+<button > <Link to="/"style={{color:"black",fontSize:"28px",textDecoration:"none"}} >Home</Link></button>
+<button ><Link to="/skills"style={{color:"black",fontSize:"28px",textDecoration:"none"}}> Skills</Link></button>
+<button ><Link to="/projects"style={{color:"black",fontSize:"28px",textDecoration:"none"}}> Projects</Link></button>
+<button ><Link to="/resume" style={{color:"black",fontSize:"28px",textDecoration:"none"}}>Resume</Link></button>
+<button ><Link to="/videos" style={{color:"black",fontSize:"28px",textDecoration:"none"}}>Videos</Link></button>
+<button><Link to="/contact" style={{color:"black",fontSize:"28px",textDecoration:"none"}}> Contact</Link></button>
    </div>
    </nav>
 
